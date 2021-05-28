@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    int x = (int)TempData.Peek("Counter");
+}
+
+<div>
+    <p>
+        <div >
+            @{
+                if (ViewBag.Message != null)
+                {
+                        <div class=" container p-3 bg-danger text-white">
+                            @ViewBag.Message;
+                        </div>
+                }
+                else
+                {
+                    <div class="container p-3 bg-info text-white">
+                        the value of the counter is: @x
+                    </div>
+                }
+            }
+        </div>
+    </p>
+
+</div>
+
+<form asp-action="Index" method="post">
+    <input name="click" type="submit" id="Adding" value="Add" /> <br />
+    <input name="click" type="submit" id="Subtracting" value="Subtract" />
+
+</form>

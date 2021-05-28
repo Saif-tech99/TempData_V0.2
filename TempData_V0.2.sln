@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempData_V0.2", "TempData_V0.2\TempData_V0.2.csproj", "{99E2CFF6-5604-4FA2-90E2-DC330324ACED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E2CFF6-5604-4FA2-90E2-DC330324ACED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E2CFF6-5604-4FA2-90E2-DC330324ACED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E2CFF6-5604-4FA2-90E2-DC330324ACED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E2CFF6-5604-4FA2-90E2-DC330324ACED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7058DE8C-0D63-4FC9-BDE9-849FEA8BF69F}
+	EndGlobalSection
+EndGlobal
